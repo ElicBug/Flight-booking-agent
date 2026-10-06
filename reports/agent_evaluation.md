@@ -2,6 +2,10 @@
 
 **Ngày tổng hợp:** 06-10-2026
 
+**Sinh viên:** Lê Huy Phát
+
+**MSSV:** 24521299
+
 **Nguồn số liệu:** các file `runs/react.jsonl`, `runs/plan_execute.jsonl`, `runs/hybrid.jsonl` trong workspace.
 
 **Mã nguồn công khai:** [github.com/ElicBug/Flight-booking-agent](https://github.com/ElicBug/Flight-booking-agent)

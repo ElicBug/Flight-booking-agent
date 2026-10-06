@@ -206,12 +206,16 @@ def build_report() -> None:
         topMargin=17 * mm,
         bottomMargin=21 * mm,
         title="Đánh giá các mẫu thiết kế Agent đặt vé máy bay",
-        author="Báo cáo Lab 3",
+        author="Lê Huy Phát",
     )
     story: list[object] = [
         Spacer(1, 8 * mm),
         paragraph("BÁO CÁO ĐÁNH GIÁ", styles["title"]),
         paragraph("Các mẫu thiết kế Agent đặt vé máy bay", styles["subtitle"]),
+        paragraph(
+            "<b>Sinh viên:</b> Lê Huy Phát&nbsp;&nbsp; | &nbsp;&nbsp;<b>MSSV:</b> 24521299",
+            styles["small"],
+        ),
         paragraph(
             f'Mã nguồn công khai: <link href="{GITHUB_URL}" color="#0E7775">'
             "github.com/ElicBug/Flight-booking-agent</link>",
