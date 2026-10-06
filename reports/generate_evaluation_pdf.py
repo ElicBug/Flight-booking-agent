@@ -28,6 +28,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RUNS_DIR = ROOT / "runs"
 OUTPUT = ROOT / "reports" / "agent_evaluation.pdf"
 FONT_DIR = Path("C:/Windows/Fonts")
+GITHUB_URL = "https://github.com/ElicBug/Flight-booking-agent"
 
 INK = colors.HexColor("#172A3A")
 TEAL = colors.HexColor("#0E7775")
@@ -211,6 +212,11 @@ def build_report() -> None:
         Spacer(1, 8 * mm),
         paragraph("BÁO CÁO ĐÁNH GIÁ", styles["title"]),
         paragraph("Các mẫu thiết kế Agent đặt vé máy bay", styles["subtitle"]),
+        paragraph(
+            f'Mã nguồn công khai: <link href="{GITHUB_URL}" color="#0E7775">'
+            "github.com/ElicBug/Flight-booking-agent</link>",
+            styles["small"],
+        ),
         HRFlowable(width="100%", thickness=1.4, color=TEAL, spaceAfter=5 * mm),
         paragraph(
             "Tổng hợp số liệu CLI hiện có và đánh giá hành vi của ReAct, "

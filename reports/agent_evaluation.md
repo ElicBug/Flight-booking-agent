@@ -4,6 +4,8 @@
 
 **Nguồn số liệu:** các file `runs/react.jsonl`, `runs/plan_execute.jsonl`, `runs/hybrid.jsonl` trong workspace.
 
+**Mã nguồn công khai:** [github.com/ElicBug/Flight-booking-agent](https://github.com/ElicBug/Flight-booking-agent)
+
 ## 1. Kịch bản thử nghiệm
 
 ### Kết quả CLI đã ghi nhận
